@@ -1,0 +1,146 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.wrapper {
+    margin: 77px 0 103px 0;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu a {
+    display: block;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-link:hover,
+.menu-link:focus {
+    color: #03a9f4;
+}
+
+.menu-item {
+    display: inline-block;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 111px;
+}
+
+.container {
+    width: 901px;
+    margin: 0 auto;
+    margin-bottom: 52px;
+}
+
+.content-list {
+    list-style: none;
+    font-size: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.article-section {
+    color: #b4ad9e;
+    font-family: "Ubuntu", sans-serif;
+    line-height: 17px;
+    text-transform: uppercase;
+    margin: 0;
+    margin-top: 31px;
+}
+
+.content-item h3 {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 0;
+    margin-top: 27px;
+    margin-bottom: 33px;
+}
+
+.content-item {
+    font-size: 14px;
+    display: inline-block;
+    width: 420px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.article-content {
+    margin: 0;
+}
+
+.content-item:not(:nth-child(2n)) {
+    margin-right: 60px;
+}
+
+.content-item {
+    margin: 0;
+    margin-bottom: 131px;
+}
+
+.content-item:nth-last-child(-n+2) {
+    margin-bottom: 0;
+}
+
+.download-button {
+    display: block;
+    border: 2px solid #626262;
+    margin: 0 auto;
+    padding: 0;
+    width: 164px;
+    height: 60px;
+    background-color: #ffffff;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+}
+
+.content {
+    margin-bottom: 70px;
+}
