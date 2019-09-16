@@ -38,12 +38,14 @@ input[type="radio"].visually-hidden {
     overflow: hidden;
 }
 
-.wrapper {
-    margin: 77px 0 103px 0;
+.main-header {
+    padding-top: 77px;
+    padding-bottom: 103px;
 }
 
 .menu {
     list-style: none;
+    font-size: 0px;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -52,6 +54,8 @@ input[type="radio"].visually-hidden {
 
 .menu a {
     display: block;
+    font-size: 14px;
+    line-height: 24px;
     color: #626262;
     text-transform: uppercase;
     text-decoration: none;
@@ -73,7 +77,6 @@ input[type="radio"].visually-hidden {
 .container {
     width: 901px;
     margin: 0 auto;
-    margin-bottom: 52px;
 }
 
 .content-list {
@@ -81,6 +84,7 @@ input[type="radio"].visually-hidden {
     font-size: 0px;
     margin: 0;
     padding: 0;
+    margin-bottom: 52px;
 }
 
 .article-section {
@@ -89,7 +93,7 @@ input[type="radio"].visually-hidden {
     line-height: 17px;
     text-transform: uppercase;
     margin: 0;
-    margin-top: 31px;
+    margin-bottom: 27px;
 }
 
 .content-item h3 {
@@ -97,7 +101,6 @@ input[type="radio"].visually-hidden {
     font-size: 30px;
     line-height: 36px;
     margin: 0;
-    margin-top: 27px;
     margin-bottom: 33px;
 }
 
@@ -107,6 +110,10 @@ input[type="radio"].visually-hidden {
     width: 420px;
     vertical-align: top;
     text-align: left;
+}
+
+.section-image {
+    margin-bottom: 31px;
 }
 
 .article-content {
@@ -139,8 +146,14 @@ input[type="radio"].visually-hidden {
     font-weight: 400;
     color: #626262;
     cursor: pointer;
+    text-decoration: none;
+    padding: 18px 31px;
+}
+
+.download-button:hover {
+    color: #03a9f4;
 }
 
 .content {
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
