@@ -1,0 +1,265 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    max-width: 100%;
+    clear: both;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.main-header {
+    padding-top: 43px;
+    padding-bottom: 110px;
+}
+
+.site-logo {
+    font-size: 30px;
+    line-height: 32px;
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #555252;
+    text-transform: uppercase;
+    text-decoration: none;
+    float: left;
+}
+
+.site-logo:hover,
+.site-logo:focus {
+    color: rgb(26, 188, 156);
+    font-weight: 900;
+}
+
+.menu {
+    width: 476px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    margin-top: 8px;
+
+}
+
+.menu-item {
+    float: left;
+}
+
+.menu-item:not(:last-child) {
+    margin-right: 32px;
+}
+
+.menu-link {
+    font-size: 14px;
+    line-height: 11px;
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #0f0101;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.menu-link:hover:hover,
+.menu-link:focus {
+    color: rgb(26, 188, 156);
+}
+
+.section-title {
+    font-size: 48px;
+    font-family: "Roboto";
+    color: rgb(81, 81, 81);
+    text-transform: uppercase;
+    line-height: 32px;
+    font-weight: 900;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+h2::after {
+    content: "";
+    display: block;
+    background-color: rgb(26, 188, 156);
+    margin: 0 auto;
+    width: 164px;
+    height: 7px;
+    margin-top: 30px;
+}
+
+.content-shop {
+    margin-bottom: 75px;
+}
+
+.content-shop-list {
+    list-style: none;
+    font-size: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.content-shop-item {
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 32px;
+    font-weight: 900;
+    float: left;
+    margin-bottom: 30px;
+}
+
+.content-shop-item:not(:nth-child(4n)) {
+    margin-right: 30px;
+}
+
+.wrapper {
+    width: 255px;
+}
+
+.item-name {
+    width: 201px;
+    height: 40px;
+    float: left;
+    background-color: rgb(50, 50, 50);
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.item-price {
+    width: 54px;
+    height: 40px;
+    background-color: rgb(140, 140, 140);
+    float: right;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.content-shop-item:hover .item-name {
+    background-color: rgb(26, 188, 156);
+}
+
+.content-shop-item:hover .item-price {
+    background-color: rgb(127, 217, 199);
+}
+
+.articles {
+    margin-bottom: 15px;
+}
+
+.content-articles-list {
+    list-style: none;
+    font-size: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.content-articles-item {
+    width: 350px;
+    font-family: "OpenSans", sans-serif;
+    color: rgb(85, 82, 82);
+    float: left;
+}
+
+.content-articles-item:not(:nth-child(3n)) {
+    margin-right: 30px;
+}
+
+.article-title {
+    margin: 0;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.news-content {
+    margin: 0;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.article-image {
+    width: 350px;
+    height: 262px;
+    margin-bottom: 10px;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    background-color: rgb(78, 198, 171);
+    width: 136px;
+    height: 3px;
+    margin-top: 10px;
+}
+
+.buttons-list {
+    padding: 0;
+    margin: 0;
+}
+
+.buttons-item {
+    list-style: none;
+    float: left;
+}
+
+.download-button {
+    display: block;
+    width: 160px;
+    height: 50px;
+    background-color: rgb(78, 198, 171);
+    font-size: 16px;
+    line-height: 26px;
+    font-family: "OpenSans", sans-serif;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    padding-top: 14px;
+}
+
+.buttons-item:not(:nth-child(3n)) {
+    margin-right: 220px;
+}
+
+.content-articles {
+    margin-bottom: 45px;
+}
+
+.download-button:hover {
+    background-color: rgb(127, 217, 199);
+    color: rgb(85, 82, 82);
+}
