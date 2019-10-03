@@ -82,6 +82,7 @@ input[type="radio"].visually-hidden {
 }
 
 .menu-link {
+    display: block;
     font-size: 14px;
     line-height: 11px;
     font-family: "Open Sans";
@@ -91,7 +92,7 @@ input[type="radio"].visually-hidden {
     text-decoration: none;
 }
 
-.menu-link:hover:hover,
+.menu-link:hover,
 .menu-link:focus {
     color: rgb(26, 188, 156);
 }
@@ -119,7 +120,7 @@ h2::after {
 }
 
 .content-shop {
-    margin-bottom: 75px;
+    margin-bottom: 100px;
 }
 
 .content-shop-list {
@@ -132,16 +133,23 @@ h2::after {
 .content-shop-item {
     font-size: 18px;
     font-family: "Roboto";
-    color: rgb(255, 255, 255);
     text-transform: uppercase;
     line-height: 32px;
     font-weight: 900;
     float: left;
-    margin-bottom: 30px;
+}
+
+.content-shop-item a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
 }
 
 .content-shop-item:not(:nth-child(4n)) {
     margin-right: 30px;
+}
+
+.content-shop-item:nth-child(-n+4) {
+    margin-bottom: 30px;
 }
 
 .wrapper {
@@ -149,6 +157,7 @@ h2::after {
 }
 
 .item-name {
+    margin: 0;
     width: 201px;
     height: 40px;
     float: left;
@@ -158,6 +167,7 @@ h2::after {
 }
 
 .item-price {
+    margin: 0;
     width: 54px;
     height: 40px;
     background-color: rgb(140, 140, 140);
@@ -208,6 +218,7 @@ h2::after {
     margin: 0;
     font-size: 14px;
     line-height: 26px;
+    margin-bottom: 15px;
 }
 
 .article-image {
@@ -223,16 +234,6 @@ h3::after {
     width: 136px;
     height: 3px;
     margin-top: 10px;
-}
-
-.buttons-list {
-    padding: 0;
-    margin: 0;
-}
-
-.buttons-item {
-    list-style: none;
-    float: left;
 }
 
 .download-button {
@@ -251,14 +252,10 @@ h3::after {
     padding-top: 14px;
 }
 
-.buttons-item:not(:nth-child(3n)) {
-    margin-right: 220px;
-}
-
 .content-articles {
-    margin-bottom: 45px;
+    padding-bottom: 45px;
 }
 
-.buttons-item:hover {
+.download-button:hover {
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.12), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
