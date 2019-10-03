@@ -184,10 +184,6 @@ h2::after {
     background-color: rgb(127, 217, 199);
 }
 
-.articles {
-    margin-bottom: 15px;
-}
-
 .content-articles-list {
     list-style: none;
     font-size: 0px;
