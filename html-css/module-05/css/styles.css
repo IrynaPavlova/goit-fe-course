@@ -240,6 +240,8 @@ input[type="radio"].visually-hidden {
     float: left;
     padding-left: 10px;
     padding-top: 5px;
+    font-size: 18px;
+    font-weight: 900;
 }
 
 .item-price {
