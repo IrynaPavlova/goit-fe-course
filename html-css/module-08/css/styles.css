@@ -211,6 +211,10 @@ ul {
     text-align: center;
 }
 
+.partners-photo {
+    border-radius: 50%;
+}
+
 .photo-wrapper {
     position: relative;
     width: 7.5rem;
