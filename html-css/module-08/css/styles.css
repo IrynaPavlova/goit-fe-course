@@ -72,7 +72,7 @@ ul {
     top: 0;
     right: 0;
     z-index: 100;
-    padding-top: 20px;
+    padding-top: 1.25rem;
 }
 
 .site-logo-header {
@@ -80,7 +80,7 @@ ul {
 }
 
 .container {
-    width: 300px;
+    width: 18.75rem;
     margin: 0 auto;
 }
 
@@ -90,21 +90,22 @@ ul {
 }
 
 .menu-item {
-    padding: 8px 18px;
+    padding: 0.5rem 1.125rem;
     border: 2px solid transparent;
-    border-radius: 20px;
+    border-radius: 1.25rem;
 }
 
 .menu-link {
     display: block;
     font-family: "MontserratB", sans-serif;
     color: rgb(255, 255, 255);
-    font-size: 14px;
-    line-height: 17px;
+    font-size: 0.875rem;
+    line-height: 1.0625rem;
     background-color: transparent;
     border: none;
+    outline: none;
     cursor: pointer;
-}  
+}
 
 .menu-item:hover {
     border: 2px solid rgb(255, 255, 255);
@@ -123,44 +124,44 @@ ul {
     background-position: center;
     background-color: rgb(26, 25, 21);
     padding-top: 50%;
-    padding-bottom: 138px;
+    padding-bottom: 8.625rem;
 }
 
 .site-logo-banner {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
 }
 
 .banner-title {
     margin: 0;
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: "MontserratB", sans-serif;
     color: rgb(255, 255, 255);
-    line-height: 36px;
+    line-height: 2.25rem;
     text-transform: uppercase;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .banner-content {
-    width: 75%;
+    width: 70%;
     margin: auto;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: "RobotoL", sans-serif;
     color: rgb(255, 255, 255);
-    line-height: 22px;
+    line-height: 1.375rem;
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 1.125rem;
 }
 
 .site-button {
     display: block;
-    width: 280px;
+    width: 17.5rem;
     border: 2px solid rgb(255, 78, 80);
-    border-radius: 20px;
-    font-size: 14px;
+    border-radius: 1.25rem;
+    font-size: 0.875rem;
     font-family: "MontserratB", sans-serif;
     color: rgb(255, 78, 80);
-    line-height: 40px;
+    line-height: 2.5rem;
     text-align: center;
     background-color: rgb(255, 255, 255);
     margin: auto;
@@ -174,47 +175,47 @@ ul {
 /*partners*/
 
 .partners {
-    padding: 70px 0 56px 0;
+    padding: 4.375rem 0 3.5rem 0;
 }
 
 .section-title {
-    font-size: 22px;
+    font-size: 1.375rem;
     font-family: "MontserratB", sans-serif;
     color: rgb(51, 51, 51);
-    line-height: 26px;
+    line-height: 1.625rem;
     text-align: center;
-    margin-bottom: 18px;
+    margin-bottom: 1.125rem;
 }
 
 .section-subtitle {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "MontserratB", sans-serif;
     color: rgb(51, 51, 51);
     font-weight: bold;
-    line-height: 17px;
+    line-height: 1.0625rem;
     text-align: center;
-    margin-bottom: 14px;
+    margin-bottom: 0.875rem;
 }
 
 .partners-list-item {
-    width: 226px;
+    width: 14.125rem;
     margin: auto;
-    margin-bottom: 28px;
+    margin-bottom: 1.75rem;
 }
 
 .partners-list-item-content {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: "RobotoL", sans-serif;
     color: rgb(102, 102, 102);
-    line-height: 17px;
+    line-height: 1.0625rem;
     text-align: center;
 }
 
 .photo-wrapper {
     position: relative;
-    width: 120px;
+    width: 7.5rem;
     margin: auto;
-    margin-bottom: 18px;
+    margin-bottom: 1.125rem;
 }
 
 .photo-wrapper::before {
@@ -223,8 +224,8 @@ ul {
     content: "";
     right: 0;
     bottom: 0;
-    width: 37px;
-    height: 37px;
+    width: 2.3125rem;
+    height: 2.3125rem;
     border: 4px solid rgb(255, 255, 255);
     border-radius: 50%;
     background-repeat: no-repeat;
@@ -256,7 +257,7 @@ ul {
     /*header*/
 
     .container {
-        width: 492px;
+        width: 31.5rem;
     }
 
     .site-logo-header {
@@ -264,57 +265,56 @@ ul {
     }
 
     .main-header {
-        padding-top: 38px;
+        padding-top: 2.375rem;
     }
 
     .main-nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0 40px;
+        padding: 0 2.5rem;
     }
 
     /*banner*/
 
     .banner {
         padding-top: 35%;
-        padding-bottom: 234px;
+        padding-bottom: 14.625rem;
     }
 
     .site-logo-banner {
         display: none;
     }
 
-    /*!!!!!!!*/
     .banner-title {
-        font-size: 52px;
-        line-height: 62px;
+        font-size: 3.25rem;
+        line-height: 3.875rem;
         margin: 0 auto;
-        margin-bottom: 40px;
+        margin-bottom: 2.5rem;
     }
 
     .banner-content {
-        font-size: 24px;
-        line-height: 29px;
-        margin-bottom: 34px;
+        font-size: 1.5rem;
+        line-height: 1.8125rem;
+        margin-bottom: 2.125rem;
     }
 
     .site-button {
-        width: 226px;
+        width: 14.125rem;
     }
 
     /*partners*/
 
     .partners {
-        padding-top: 56px;
+        padding-top: 3.5rem;
     }
 
     .section-title {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
 
     .partners-list-item {
-        width: 220px;
+        width: 13.75rem;
         margin-bottom: 0;
         margin: 0;
     }
@@ -323,7 +323,7 @@ ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-bottom: 38px;
+        margin-bottom: 2.375rem;
     }
 
     .partners-list-item:nth-of-type(2n) {
@@ -331,7 +331,7 @@ ul {
     }
 
     .partners-list-item:nth-of-type(odd) {
-        margin-bottom: 56px;
+        margin-bottom: 3.5rem;
     }
 
 }
@@ -341,11 +341,11 @@ ul {
     /*header*/
 
     .container {
-        width: 940px;
+        width: 58.75rem;
     }
 
     .main-nav {
-        width: 940px;
+        width: 58.75rem;
         padding: 0;
         margin: auto;
     }
@@ -363,7 +363,7 @@ ul {
     /*partners*/
 
     .partners {
-        padding: 70px 0;
+        padding: 4.375rem 0;
     }
 
     .partners-list-item:nth-of-type(odd) {
@@ -371,7 +371,7 @@ ul {
     }
 
     .partners-list-item:not(:last-of-type) {
-        margin-right: 20px;
+        margin-right: 1.25rem;
     }
 
 }
