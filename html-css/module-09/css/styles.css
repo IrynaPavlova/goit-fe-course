@@ -67,7 +67,7 @@ ul {
 /*header*/
 
 .container {
-    width: 320px;
+    width: 20rem;
     margin: 0 auto;
 }
 
@@ -77,12 +77,12 @@ ul {
     background-size: cover;
     background-position: center;
     background-color: rgb(26, 25, 21);
-    padding-top: 20px;
-    padding-bottom: 138px;
+    padding-top: 1.25rem;
+    padding-bottom: 8.625rem;
 }
 
-.menu {
-    margin-bottom: 114px;
+.mb {
+    margin-bottom: 7.125rem;
 }
 
 .menu-item {
@@ -107,7 +107,7 @@ ul {
 }
 
 .site-logo-banner {
-    margin-bottom: 38px;
+    margin-bottom: 2.375rem;
 }
 
 .logo-img {
@@ -115,14 +115,14 @@ ul {
 }
 
 .banner-title {
-    font-size: 30px;
+    font-size: 1.875rem;
     font-family: "MontserratB", sans-serif;
     color: rgb(255, 255, 255);
-    line-height: 36px;
+    line-height: 2.25rem;
     text-transform: uppercase;
     text-align: center;
     margin: 0;
-    margin-bottom: 18px;
+    margin-bottom: 1.125rem;
 }
 
 .banner-content {
@@ -232,17 +232,19 @@ ul {
     background-color: rgb(78, 115, 219);
 }
 
-/*header*/
+
 
 @media (min-width:768px) {
 
+    /*header*/
+
     .container {
-        width: 660px;
+        width: 41.25rem;
     }
 
     .main-header {
-        padding-top: 38px;
-        padding-bottom: 234px;
+        padding-top: 2.375rem;
+        padding-bottom: 14.625rem;
     }
 
     .logo-header {
@@ -253,15 +255,11 @@ ul {
         margin-bottom: 0;
     }
 
-    .mb {
-        margin-bottom: 150px;
-    }
-
     .banner-title {
         font-size: 3.25rem;
         line-height: 3.875rem;
         margin: auto;
-        margin-bottom: 38px;
+        margin-bottom: 2.375rem;
         padding: 0 15px;
     }
 
@@ -275,11 +273,11 @@ ul {
     /*partners*/
 
     .partners {
-        padding: 72px 0 40px 0;
+        padding: 4.5rem 0 2.5rem 0;
     }
 
     .section-title {
-        margin-bottom: 30px;
+        margin-bottom: 1.875rem;
     }
 
     .partners-list-item {
@@ -306,13 +304,13 @@ ul {
     /*header*/
 
     .container {
-        width: 942px;
+        width: 58.875rem;
     }
 
     /*partners*/
 
     .partners {
-        padding: 70px 0;
+        padding: 4.375rem 0;
     }
 
     .partners-list-item:nth-of-type(odd) {
