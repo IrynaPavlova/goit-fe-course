@@ -239,7 +239,7 @@ ul {
     /*header*/
 
     .container {
-        width: 45rem;
+        width: 720px;
     }
 
     .main-header {
@@ -299,12 +299,12 @@ ul {
 
 }
 
-@media (min-width:960px) {
+@media (min-width:992px) {
 
     /*header*/
 
     .container {
-        width: 58.875rem;
+        width: 942px;
     }
 
     /*partners*/
