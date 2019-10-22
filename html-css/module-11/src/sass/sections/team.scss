@@ -1,0 +1,108 @@
+.team {
+    padding-bottom: 82px;
+
+    &__description {
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        font-family: $font-secondary-regular;
+        @extend %secondary-font-settings;
+        color: $secondary-dark-color;
+        margin-bottom: 94px;
+    }
+
+    &__list {
+       @extend %flex-between;
+       
+       &-item {
+            width: 382px;
+
+            &-name {
+                font-family: $font-primary-regular;
+                @extend %primary-font-settings;
+                color: $primary-dark-coor;
+                text-transform: uppercase;
+                margin-bottom: 16px;
+                text-align: center;
+            }
+
+            &-position {
+                font-family: $font-secondary-italic;
+                font-style: italic;
+                font-weight: 400;
+                @extend %secondary-font-settings;
+                color: $secondary-dark-color;
+                text-align: center;
+            }
+
+            &:hover {
+                .overlay {
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+       }
+    }
+}
+
+.wrapper {
+    position: relative;
+    margin-bottom: 30px;
+    transition: $transition;
+}
+
+.overlay {
+   @extend %flex-align;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: $gradient;
+    box-shadow: 10px 10px 0 $tertialy-accent-color;
+    opacity: 0;
+    visibility: hidden;
+    transition: $transition;
+
+    &__svg {
+        width: 26px;
+        height: 26px;
+        fill: $secondary-accent-color;
+        transition: $transition;
+    }
+
+    &__list {
+        display: flex;
+
+        &-item {
+            background-color: $primary-accent-color;
+            transition: $transition;
+            @extend %flex-align;
+            width: 56px;
+            height: 56px;
+
+            &:not(:last-of-type) {
+                border-right: 0.0625rem solid rgba(243, 129, 129, 0.5);
+            }
+
+            &:hover {
+                .overlay__svg {
+                    fill: $main-white-color; 
+                }
+            }
+
+            &:hover {
+                background-color: $secondary-accent-color;
+            }
+
+            &:hover {
+                .wrapper {
+                    transform: translate(-10px, -10px);
+                }
+            }
+        }
+    }
+}
+
+

@@ -1,0 +1,58 @@
+.page-footer {
+    border-top: 0.0625rem solid $primary-border-color;
+    padding: 12px 0;
+
+    &__content {
+        font-family: $font-primary-regular;
+        font-size: $primary-font-size;
+        color: $primary-dark-coor;
+    }
+
+    &__company {
+        color: $secondary-accent-color;
+        display: inline-block;
+    }
+
+    &__wrapper {
+        @extend %flex-center-between;
+    }
+}
+
+
+form {
+    display: flex;
+}
+
+input[type="email"] {
+    display: block;
+    height: 40px;
+    width: 230px;
+    @extend %secondary-font-settings;
+    font-weight: 400;
+    font-family: $font-secondary-italic;
+    font-style: italic;
+    color: $primary-dark-coor;
+    border-style: solid;
+    border-width: 0.0625rem;
+    border-color: $secondary-border-color;
+    background-color: $main-white-color;
+    padding-left: 12px;
+
+    &::placeholder {
+        color: $input-color;
+    }
+}
+
+input[type="submit"] {
+    display: block;
+    height: 40px;
+    width: 150px;
+    background-color: $tertialy-accent-color;
+    @extend %primary-font-settings;
+    font-family: $font-primary-bold;
+    color: $main-white-color;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+}

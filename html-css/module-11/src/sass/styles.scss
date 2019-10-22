@@ -1,0 +1,16 @@
+@import './normalize';
+
+//helpers
+@import './helpers/fonts';
+@import './helpers/base.scss';
+@import './helpers/placeholders';
+@import './helpers/variables';
+
+
+//sections
+@import './sections/header';
+@import './sections/banner';
+@import './sections/services.scss';
+@import './sections/team.scss';
+@import './sections/footer.scss';
+

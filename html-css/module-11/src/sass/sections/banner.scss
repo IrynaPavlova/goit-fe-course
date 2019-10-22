@@ -1,0 +1,49 @@
+.banner {
+    background-image: url(../images/banner@1x.jpg);
+    @extend %bg-image;
+    padding-top: 20%;
+    padding-bottom: 230px;
+    &__title {
+        font-size: 150px;
+        font-family: $font-primary-bold;
+        color: $main-white-color;
+        line-height: 139px;
+        text-transform: uppercase;
+        text-align: center;
+        margin: 0 auto;
+        width: 822px;
+        margin-bottom: 124px;
+    }
+
+    &__title span {
+        display: block;
+        font-size: 72px;
+        font-family: $font-tertialy;
+        color: $main-white-color;
+        line-height: 86px;
+        text-transform: none;
+        margin-bottom: 60px;
+    
+    }
+
+    &__button {
+        font-size: $primary-font-size;
+        font-family: $font-primary-bold;
+        color: $main-white-color;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 34px;
+        border: 0.1875rem solid $main-white-color;
+        width: 158px;
+        height: 38px;
+        margin: auto;
+    }
+}
+
+@media 
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .banner {
+        background-image: url(../images/banner@2x.jpg);
+    }
+}
